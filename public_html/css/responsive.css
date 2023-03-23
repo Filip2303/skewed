@@ -1,0 +1,83 @@
+@media(min-width:576px){
+    /* SM breakpoint*/
+
+
+
+
+}
+
+@media(min-width: 768px){
+    /* MD breakpoint*/
+    .hero .carousel-item{
+        padding: 250px 0;
+    }
+
+    .hero .hero-title{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .about, .video, .team{
+        padding: 90px 0;
+    }
+
+}
+
+
+@media(min-width: 992px){
+    /* LG breakpoint*/
+
+    .hero .carousel-item{
+        padding: 250px 0;
+    }
+
+    .hero .hero-title{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .hero .carousel-indicators{
+        bottom: 150px;
+    }
+    .about, .video, .team{
+        padding: 120px 0;
+    }
+}
+
+@media(min-width: 1200px){
+    /* XL breakpoint*/
+
+    .container{
+        max-width: 1190px;
+    }
+
+    header .navbar{
+        padding: 25px 0;
+    }
+    .hero .carousel-item{
+        padding: 300px 0 360px;
+    }
+
+    .hero .hero-title{
+        font-size: 82px;
+        line-height: 98px;
+    }
+    .hero .carousel-indicators{
+        bottom: 181px;
+    }
+    .about{
+        padding: 120px 0 170px;
+        ;
+    }
+    
+    .video, .team{
+        padding: 161px 223px;
+    }
+}
+
+@media(min-width: 1400px){
+    /* XXL breakpoint*/
+
+    .container{
+        max-width: 1190px;
+    }
+
+}

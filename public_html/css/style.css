@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+/*font-family: 'Roboto', sans-serif;*/
+
+
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('fonts/MyriadProRegular/MyriadPro-Regular.eot');
+    src:
+        local('MyriadPro-Regular'),
+        url('fonts/MyriadProRegular/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyriadProRegular/MyriadPro-Regular.woff2') format('woff2'),
+        url('fonts/MyriadProRegular/MyriadPro-Regular.woff') format('woff'),
+        url('fonts/MyriadProRegular/MyriadPro-Regular.ttf') format('truetype'),
+        url('fonts/MyriadProRegular/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: #B1B1B1;
+}
+
+.section-title{
+    font-weight: 100;
+    font-size: 60px;
+    line-height: 65px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.text-skewed{
+    color: #F7CC4B;
+}
+
+.bg-skewed{
+    background-color: #F7CC4B;
+}
+
+.btn-skewed{
+    border: 2px solid #F7CC4B;
+    border-radius: 2px;
+    color: #F7CC4B;
+    padding: 13px 40px;
+    transition: 0.3s linear;
+    line-height: 20px;
+}
+
+.btn-skewed:hover{
+    background-color: #F7CC4B;
+    color: #fff;
+}
+
+header{
+    background-color: rgba(0,0,0,0.35);
+}
+
+header .navbar-toggler{
+    border: 1px solid #fff;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+header .nav-link{
+    font-size: 14px;
+    line-height: 28px;
+    font-family: 'MyriadPro-Regular';
+    text-transform: uppercase;
+    text-align: center;
+}
+.hero{
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
+}
+.hero .carousel-item{
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.hero .hero-title{
+    color: #fff;
+    font-family: 'MyriadPro-Regular';
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+    max-width: 845px;
+    margin-inline: auto;
+    letter-spacing: -2.5px;
+}
+
+.hero .carousel-indicators{
+    bottom: 100px;
+}
+.about{
+    padding: 70px 0;
+}
+.about .section-title{
+    font-family: 'MyriadPro-Regular';
+    color: #222;
+}
+
+.video, .team{
+    clip-path: polygon(0 13%, 100% 0, 100% 87%, 0% 100%);
+    padding: 90px 0;
+}
+
+.video .section-title{
+    font-weight: 100;
+}
+
+.video .lead{
+    color: #222;
+    font-family: 'MyriadPro-Regular';
+}
+
+.video .video-wrapper{
+    max-width: 820px;
+    margin-inline: auto;
+}
+
+.team .section-title{
+    font-weight: 100;
+    color: #222;
+}
+
+.team .team-member .team-member-image{
+    max-width: 220px;
+    margin-inline: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.team .team-member .team-member-name{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #222;
+}
+
+.team .team-member .team-member-social{
+    inset: 0;
+    background-color: #F7CC4B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-220px);
+    transition: 0.3s linear;
+}
+.team .team-member:hover .team-member-social{
+    transform: translateX(0);
+}
+.team .team-member .team-member-social a{
+    width: 48px;
+    height: 48px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 44px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 6px;
+    transition: 0.3s linear;
+}
+
+.team .team-member .team-member-social a:hover{
+    transform: scale(1.05);
+}
